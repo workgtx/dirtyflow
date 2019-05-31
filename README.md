@@ -1,2 +1,2 @@
 # dirtyflow
-bot for reposting content from dirty.ru
+Async telegram bot for reposting content from dirty.ru
