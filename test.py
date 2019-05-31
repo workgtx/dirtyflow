@@ -13,14 +13,14 @@ from aiogram.types import ChatType, ParseMode, ContentTypes
 from aiogram.utils.markdown import hbold, bold, text, link
 
 
-TOKEN = '759606189:AAEhm4qMDM8wzQN5AbbsS9HA8Z1d_34MkAE'
-WEBHOOK_HOST = 'rkndolzensosat.ml'
+TOKEN = ''
+WEBHOOK_HOST = ''
 WEBHOOK_PORT = 8443
-WEBHOOK_SSL_CERT = '/home/ec2-user/ssl/webhook_cert.pem'
-WEBHOOK_SSL_PRIV = '/home/ec2-user/ssl/webhook_pkey.pem'
+WEBHOOK_SSL_CERT = ''
+WEBHOOK_SSL_PRIV = ''
 WEBHOOK_URL_PATH = '/webhook'
 WEBHOOK_URL = f'https://{WEBHOOK_HOST}:{WEBHOOK_PORT}{WEBHOOK_URL_PATH}'
-WEBAPP_HOST = '172.31.45.201'
+WEBAPP_HOST = ''
 WEBAPP_PORT = 8443
 BAD_CONTENT = ContentTypes.PHOTO & ContentTypes.DOCUMENT & ContentTypes.STICKER & ContentTypes.AUDIO
 
